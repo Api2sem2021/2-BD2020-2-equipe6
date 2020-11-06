@@ -19,7 +19,7 @@ public class Usuario {
 	}
 	
 	public Usuario(String nome_user, String cpf_user, String login_user, String senha_user, String tipo_user) {
-		this.id_user = id_user;
+		
 		this.nome_user = nome_user;
 		this.cpf_user = cpf_user;
 		this.login_user = login_user;
@@ -64,7 +64,11 @@ public class Usuario {
 		this.tipo_user = tipo_user;
 	}
 
-	
+	public String toString() {
+		return "usuario("+id_user+" "+nome_user+" "+cpf_user+" "+login_user+" "+senha_user+" "+" "+ tipo_user;
+		
+		
+	}
 	
 	
 }
