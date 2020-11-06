@@ -29,6 +29,23 @@ public class Cliente {
 		this.cep_cli = cep_cli;
 		this.telefone_cli = telefone_cli;
 	}
+	
+	public Cliente(String nome_cli, String cpf_cnpj_cli, String rua_cli, int numero_cli,
+			String complemento_cli, String bairro_cli, String cidade_cli, String estado_cli, int cep_cli,
+			String telefone_cli) {
+		this.id_cli = id_cli;
+		this.nome_cli = nome_cli;
+		this.cpf_cnpj_cli = cpf_cnpj_cli;
+		this.rua_cli = rua_cli;
+		this.numero_cli = numero_cli;
+		this.complemento_cli = complemento_cli;
+		this.bairro_cli = bairro_cli;
+		this.cidade_cli = cidade_cli;
+		this.estado_cli = estado_cli;
+		this.cep_cli = cep_cli;
+		this.telefone_cli = telefone_cli;
+	}
+
 
 	public int getId_cli() {
 		return id_cli;

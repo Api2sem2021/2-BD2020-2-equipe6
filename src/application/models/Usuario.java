@@ -8,6 +8,25 @@ public class Usuario {
 	public String login_user;
 	public String senha_user;
 	public String tipo_user;
+	
+	public Usuario(int id_user, String nome_user, String cpf_user, String login_user, String senha_user, String tipo_user) {
+		this.id_user = id_user;
+		this.nome_user = nome_user;
+		this.cpf_user = cpf_user;
+		this.login_user = login_user;
+		this.senha_user = senha_user;
+		this.tipo_user = tipo_user;
+	}
+	
+	public Usuario(String nome_user, String cpf_user, String login_user, String senha_user, String tipo_user) {
+		this.id_user = id_user;
+		this.nome_user = nome_user;
+		this.cpf_user = cpf_user;
+		this.login_user = login_user;
+		this.senha_user = senha_user;
+		this.tipo_user = tipo_user;
+	}
+	
 	public int getId_user() {
 		return id_user;
 	}
@@ -44,14 +63,7 @@ public class Usuario {
 	public void setTipo_user(String tipo_user) {
 		this.tipo_user = tipo_user;
 	}
-	public Usuario(int id_user, String nome_user, String cpf_user, String login_user, String senha_user, String tipo_user) {
-		this.id_user = id_user;
-		this.nome_user = nome_user;
-		this.cpf_user = cpf_user;
-		this.login_user = login_user;
-		this.senha_user = senha_user;
-		this.tipo_user = tipo_user;
-	}
+
 	
 	
 	
